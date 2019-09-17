@@ -1,0 +1,30 @@
+we have to convert the matrix of images of size (28,28) to a vector , so we will convert it to a vector by reshaping it to (60000,28*28) This will create a matrix of rows 60000 and columns 784, here rows are the number of images, and columns are the features of a single image. so for every image , we will have 784 columns which will be the feature of a single image.
+
+[ 255 0 255 255 255 1.4 5.6 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+  4   6 232 123 		
+  .
+  .
+  .
+  .
+  .
+								      ]
+
+Hence we  will have 28 rows and 28 columns
+
+
+[ 1  2 3 4 5 6 7 8 ............784
+  2
+  3
+  4
+  5
+  .
+  .
+  .
+  .
+  .
+  .				  ]
+60000
+
+In a single row we have all the features of a single image.
+the total rows are equal to the number of images.
+
